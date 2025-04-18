@@ -1,0 +1,36 @@
+body {
+    width: 300px;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  
+  #note-form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #note-input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  #notes-container .note-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note-card button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #c00;
+  }
+  

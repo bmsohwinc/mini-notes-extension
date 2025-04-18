@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Mini Notes",
+    "version": "1.1",
+    "description": "Sticky right-edge label → modal CRUD notes",
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["content.css"]
+      }
+    ],
+    "action": {
+      "default_icon": "icon192.png"
+    }
+  }
+  
